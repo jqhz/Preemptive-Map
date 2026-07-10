@@ -7,6 +7,9 @@ My map to help you identify the preemptive spike values of your different spawne
 
 ## Usage
 
+Recommended to use thin/eyezoom whilst looking straight at the spawner, or 30FOV if you do not have access to resize macros  
+*Please avoid loading other spawners by looking straight on at the spawner you are getting the spike for*
+
 For the *regular spikes*:  
 Render distance: `8`   
 Entity distance: `500%`  
@@ -21,6 +24,11 @@ Chunk borders: `off`
 Hitboxes: `off`  
 *Note: the main difference in the multispawner spikes come from having hitboxes off, and the orientations that are setup in the map*
 
+Also, please take care of the cows. They are meant to be there to simulate the mob weight you get in real strongholds.  
+*If you are already knowledgeable in mobweight, you could experiment with adding more cows or killing some off to check your values on different T values.*
+
+Furthermore, do not break the walls separating the spawner types. They are there to cull the other spawners.
+
 ## Motive
 
 Lama's Map made in 2022 is still usable as is, but we haven't had a new map for preemptive spikes since.  
@@ -31,6 +39,7 @@ Additionally, the map had a few minor subtleties that this map solves, notably:
 - Skeleton spawner close enough to not unload the entities (cows) on 8rd 
 
 ## Features
+
 - Spawners
   - Silverfish
   - Cave Spider
@@ -70,6 +79,7 @@ Feel free to add more chests or more/less mobs in the pit to see what your spike
 > Vertical takes precedence. Then if they are on the same y-level, North/South. Finally, East/West.
 
 ## Installation Instructions
+
 1. Open the **Releases** tab on the right side of the page
 2. Download the latest `.zip` file of the map
 3. Unzip the file  
